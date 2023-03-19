@@ -2,14 +2,27 @@ body {
     background-color: darkslategray;
     font-family: Arial, Helvetica, sans-serif;
 }
-h1 {
+h1,
+h2,
+h3 {
     text-align: center;
     background-color: aliceblue;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: auto;
 }
 div.container {
     text-align: center;
 }
 ul.recipesUL {
+    display: inline-block;
+    text-align: left;
+}
+ol.recipesOL {
     display: inline-block;
     text-align: left;
 }
@@ -20,4 +33,7 @@ li {
 a {
     color: white;
     text-decoration: none;
+}
+.aHP {
+    text-align: center;
 }
