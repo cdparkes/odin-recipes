@@ -21,6 +21,7 @@ div.container {
 ul.recipesUL {
     display: inline-block;
     text-align: left;
+    list-style: none;
 }
 ol.recipesOL {
     display: inline-block;
@@ -32,7 +33,6 @@ li {
 }
 a {
     color: white;
-    text-decoration: none;
 }
 .aHP {
     text-align: center;
