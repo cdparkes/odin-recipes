@@ -19,9 +19,9 @@ div.container {
     text-align: center;
 }
 ul.recipesUL {
-    display: inline-block;
     text-align: left;
     list-style: none;
+    display: inline-block;
 }
 ol.recipesOL {
     display: inline-block;
@@ -30,10 +30,20 @@ ol.recipesOL {
 li {
     color: white;
     font-size: 20px;
+    padding: 5px 0px;
 }
 a {
     color: white;
+    margin: 10px;
 }
 .aHP {
     text-align: center;
+}
+.recipeCard {
+    display: inline-block;
+    margin: 30px;
+}
+.imgHomepage {
+    width: 200px;
+    margin: 10px 0;
 }
